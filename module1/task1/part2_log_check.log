@@ -1,0 +1,1369 @@
+Script started on 2026-07-09 17:23:51+07:00 [COMMAND="bash" TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="80" LINES="23"]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen ls
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2Jpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -sS[K[KS whoami_part2
+[?2004lbash: screnn: command not found
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -S whoami_part2[1P[1@e
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [?5h[?5l
+.bash_history             part2_log_check.log       .ssh/
+.bash_logout              practice2_-v32_part1.log  .viminfo
+.bashrc                   .profile                  
+.config/                  report_part1.txt          
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [K[?5h[?5l
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls[K[Kecho $HIST[?5h[?5l
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $HISTSIZE
+[?2004l1000
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ find [K~ [K[K ~ maxdepth=[K 1 -name ".*"
+[?2004l/home/eltex-v32/.viminfo
+/home/eltex-v32/.config
+/home/eltex-v32/.ssh
+/home/eltex-v32/.profile
+/home/eltex-v32/.bash_logout
+/home/eltex-v32/.bash_history
+/home/eltex-v32/.bashrc
+find: ‘maxdepth’: No such file or directory
+find: ‘1’: No such file or directory
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5l[?5h[?5l[?5h[?5lls -la grep | [K[K[K[K[K[K[K~ | grep "^\."
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export HISTTIMEFORMAT="%F %T "
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20
+[?2004lbash: hisrory: command not found
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20[P[1@t
+[?2004l    1  2026-07-09 17:24:32 w
+    2  2026-07-09 17:24:32 exit
+    3  2026-07-09 17:24:32 screen
+    4  2026-07-09 17:24:32 tree
+    5  2026-07-09 17:24:32 exit
+    6  2026-07-09 17:24:32 screen
+    7  2026-07-09 17:24:32 exit
+    8  2026-07-09 17:24:32 screen
+    9  2026-07-09 17:24:32 exit
+   10  2026-07-09 17:24:32 screen -ls
+   11  2026-07-09 17:24:32 exit
+   12  2026-07-09 17:24:32 -ls 
+   13  2026-07-09 17:24:32 screen -ls
+   14  2026-07-09 17:24:32 screen -r pts-38
+   15  2026-07-09 17:24:32 exit
+   16  2026-07-09 17:24:32 screen
+   17  2026-07-09 17:24:32 screen 
+   18  2026-07-09 17:24:32 w
+   19  2026-07-09 17:24:32 screen -S top -d -m top
+   20  2026-07-09 17:24:32 ls
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |tail -20
+[?2004l   86  2026-07-09 17:24:32 cat typescript
+   87  2026-07-09 17:24:32 rm typescript
+   88  2026-07-09 17:24:32 ls
+   89  2026-07-09 17:24:32 script -c practice2_$eltex-v32_part1.log
+   90  2026-07-09 17:24:32 rm typescript
+   91  2026-07-09 17:24:32 script -c "bash"  practice2_$eltex-v32_part1.log
+   92  2026-07-09 17:24:32 exit
+   93  2026-07-09 17:24:32 cat $USER_part2.log
+   94  2026-07-09 17:24:32 exit
+   95  2026-07-09 17:24:32 cat .log
+   96  2026-07-09 17:24:32 cat part2_log_check.log
+   97  2026-07-09 17:24:32 screen ls
+   98  2026-07-09 17:24:32 exit
+   99  2026-07-09 17:27:23 echo $HISTSIZE
+  100  2026-07-09 17:28:54 find ~ maxdepth 1 -name ".*"
+  101  2026-07-09 17:31:07 ls -la ~ | grep "^\."
+  102  2026-07-09 17:33:33 export HISTTIMEFORMAT="%F %T "
+  103  2026-07-09 17:33:49 hisrory |head -20
+  104  2026-07-09 17:33:55 history |head -20
+  105  2026-07-09 17:36:09 history |tail -20
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ date
+[?2004lThu Jul  9 05:37:45 PM +07 2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ datehistory |tail -20[K[K3
+[?2004l  105  2026-07-09 17:36:09 history |tail -20
+  106  2026-07-09 17:37:45 date
+  107  2026-07-09 17:38:51 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export Prm[K[K[K[K PROMPT_COMMAND="history -a.[K4[K$[K; $PROMPT_COMMAN D"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd
+[?2004l/home/eltex-v32
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisro[K[K[K[K[K[?5h[?5lpwdexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3
+[?2004l  108  2026-07-09 17:41:25 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+  109  2026-07-09 17:41:27 pwd
+  110  2026-07-09 17:41:42 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lv[KDATE=$(date +%Y-%m-%d)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo D[K$DATE
+[?2004l2026-07-09
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATE
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATEecho $DATE
+[?2004l
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATEunset DATEecho $DATE[K[?5h[?5lDATE=$(%d[K[Kdate +%d-%m-%Y)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATE
+[?2004l09-07-2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ TIME=$(time[K[K[K[Kdate +"[K%H^[K:%M:%S)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo TIME[K[K[K[K$TIME
+[?2004l17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE_TIME=([K$(date +%d-%m-%Y--[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$[K[K[K"$DATE $TIME"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ esc[K[Kcg[Kho $DATE_TIME
+[?2004l09-07-2026 17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5lecho $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%Y-%m-%d)[6Phistory |tail -3pwd[Kexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3date[Khistory |tail -20head -20rory |head -20export HISTTIMEFORMAT="%F %T "[9Pls -la ~ | grep "^\."find ~ maxdepth 1 -name ".*"[14Pecho $HISTSIZEfind ~ maxdepth 1 -name ".*"[7Pls -la ~ | grep "^\."export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20tail -20date[Khistory |tail -3export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ pwdhistory |tail -3DATE=$(date +%Y-%m-%d)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIME[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lfind /bin /sbin itype -f [K[K[K[K[K[K[K[K[Ktype -f -name"[K "[0-9]*" 2>dev[K[K[K/dev/nul l[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls .[K/bin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                  [1m[32m/bin/sha1sum[0m
+[1m[32m/bin/b2sum[0m                      [1m[32m/bin/sha224sum[0m
+[1m[32m/bin/base32[0m                     [1m[32m/bin/sha256sum[0m
+[1m[32m/bin/base64[0m                     [1m[32m/bin/sha384sum[0m
+[1m[32m/bin/bunzip2[0m                    [1m[32m/bin/sha512sum[0m
+[1m[32m/bin/bzip2[0m                      [1m[32m/bin/ssh-argv0[0m
+[1m[32m/bin/bzip2recover[0m               [1m[32m/bin/systemd-id128[0m
+[1m[36m/bin/c89[0m                        [1m[36m/bin/traceroute6[0m
+[1m[32m/bin/c89-gcc[0m                    [1m[36m/bin/traceroute6.db[0m
+[1m[36m/bin/c99[0m                        [1m[36m/bin/x86_64[0m
+[1m[32m/bin/c99-gcc[0m                    [1m[32m/bin/x86_64-linux-gnu-addr2line[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[36m/bin/cpp-12[0m                     [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/diff3[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/enc2xs[0m                     [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[36m/bin/gcc-12[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[36m/bin/gcc-ar-12[0m                  [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[36m/bin/gcc-nm-12[0m                  [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/gcc-ranlib-12[0m              [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[36m/bin/gcov-12[0m                    [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/gcov-dump-12[0m               [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[36m/bin/gcov-tool-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/grub-menulst2cfg[0m           [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m       [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/grub-syslinux2cfg[0m          [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/h2ph[0m                       [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[32m/bin/h2xs[0m                       [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/i386[0m                       [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/linux32[0m                    [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/linux64[0m                    [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/lto-dump-12[0m                [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[32m/bin/md5sum[0m                     [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/md5sum.textutils[0m           [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[36m/bin/pdb3[0m                       [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[36m/bin/pdb3.11[0m                    [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/perl5.36.0[0m                 [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[36m/bin/ping4[0m                      [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/ping6[0m                      [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[32m/bin/pl2pm[0m                      [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[32m/bin/pod2html[0m                   [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[32m/bin/pod2man[0m                    [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/pod2text[0m                   [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[32m/bin/pod2usage[0m                  [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[32m/bin/py3clean[0m                   [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[32m/bin/py3compile[0m                 [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[36m/bin/py3versions[0m                [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[36m/bin/pydoc3[0m                     [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[32m/bin/pydoc3.11[0m                  [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/pygettext3[0m                 [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pygettext3.11[0m              [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[36m/bin/python3[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/python3.11[0m                 [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*[Kls /bin/*[0-9]* /sbin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                   [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[32m/bin/b2sum[0m                       [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/base32[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/base64[0m                      [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[32m/bin/bunzip2[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[32m/bin/bzip2[0m                       [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[32m/bin/bzip2recover[0m                [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/c89[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[32m/bin/c89-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/c99[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[32m/bin/c99-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m   [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[36m/bin/cpp-12[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/diff3[0m                       [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/enc2xs[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[36m/bin/gcc-12[0m                      [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/gcc-ar-12[0m                   [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/gcc-nm-12[0m                   [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/gcc-ranlib-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/gcov-12[0m                     [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[36m/bin/gcov-dump-12[0m                [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/gcov-tool-12[0m                [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[32m/bin/grub-menulst2cfg[0m            [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m        [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/grub-syslinux2cfg[0m           [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/h2ph[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[32m/bin/h2xs[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/i386[0m                        [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[36m/bin/linux32[0m                     [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[36m/bin/linux64[0m                     [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[36m/bin/lto-dump-12[0m                 [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/md5sum[0m                      [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[36m/bin/md5sum.textutils[0m            [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[36m/bin/pdb3[0m                        [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[36m/bin/pdb3.11[0m                     [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[32m/bin/perl5.36.0[0m                  [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m   [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[36m/bin/ping4[0m                       [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/ping6[0m                       [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pl2pm[0m                       [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[32m/bin/pod2html[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/pod2man[0m                     [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[1m[32m/bin/pod2text[0m                    [1m[32m/sbin/dumpe2fs[0m
+[1m[32m/bin/pod2usage[0m                   [1m[32m/sbin/e2freefrag[0m
+[1m[32m/bin/py3clean[0m                    [1m[32m/sbin/e2fsck[0m
+[1m[32m/bin/py3compile[0m                  [1m[32m/sbin/e2image[0m
+[1m[36m/bin/py3versions[0m                 [1m[36m/sbin/e2label[0m
+[1m[36m/bin/pydoc3[0m                      [1m[36m/sbin/e2mmpstatus[0m
+[1m[32m/bin/pydoc3.11[0m                   [1m[32m/sbin/e2scrub[0m
+[1m[36m/bin/pygettext3[0m                  [1m[32m/sbin/e2scrub_all[0m
+[1m[32m/bin/pygettext3.11[0m               [1m[32m/sbin/e2undo[0m
+[1m[36m/bin/python3[0m                     [1m[32m/sbin/e4crypt[0m
+[1m[32m/bin/python3.11[0m                  [1m[32m/sbin/e4defrag[0m
+[1m[32m/bin/sha1sum[0m                     [1m[36m/sbin/fsck.ext2[0m
+[1m[32m/bin/sha224sum[0m                   [1m[36m/sbin/fsck.ext3[0m
+[1m[32m/bin/sha256sum[0m                   [1m[36m/sbin/fsck.ext4[0m
+[1m[32m/bin/sha384sum[0m                   [1m[32m/sbin/killall5[0m
+[1m[32m/bin/sha512sum[0m                   [1m[32m/sbin/mke2fs[0m
+[1m[32m/bin/ssh-argv0[0m                   [1m[36m/sbin/mkfs.ext2[0m
+[1m[32m/bin/systemd-id128[0m               [1m[36m/sbin/mkfs.ext3[0m
+[1m[36m/bin/traceroute6[0m                 [1m[36m/sbin/mkfs.ext4[0m
+[1m[36m/bin/traceroute6.db[0m              [1m[32m/sbin/resize2fs[0m
+[1m[36m/bin/x86_64[0m                      [1m[32m/sbin/tune2fs[0m
+[1m[32m/bin/x86_64-linux-gnu-addr2line[0m  [1m[36m/sbin/update-grub2[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]* /sbin/*[0-9]*[KPS1= [K[K[K[K[K[?5h[?5lecho $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export PS1= "[K'//[K[K\u@\h-$(date+%H:%M)> '
+[?2004lbash: export: `\u@\h-$(date+%H:%M)> ': not a valid identifier
+[?2004hexport PS1= '\u@\h-$(date+%H:%M)> 'e[K[?5h[?5l[?2004l[?2004h^C[?2004l[?2004h[?2004l
+[?2004hq[Ko
+[?2004lbash: o: command not found
+[?2004h[?5h[?5lq[K^[K:q
+[?2004lbash: :q: command not found
+[?2004hexit
+[?2004lexit
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ scree[Ken -ls
+[?2004lNo Sockets found in /run/screen/S-eltex-v32.
+
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ part2_log_check/[K.logcpart2_log_check.logapart2_log_check.logtpart2_log_check.log part2_log_check.log
+[?2004lScript started on 2026-07-09 17:23:51+07:00 [COMMAND="bash" TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="80" LINES="23"]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen ls
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2Jpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -sS[K[KS whoami_part2
+[?2004lbash: screnn: command not found
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -S whoami_part2[1P[1@e
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [?5h[?5l
+.bash_history             part2_log_check.log       .ssh/
+.bash_logout              practice2_-v32_part1.log  .viminfo
+.bashrc                   .profile                  
+.config/                  report_part1.txt          
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [K[?5h[?5l
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls[K[Kecho $HIST[?5h[?5l
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $HISTSIZE
+[?2004l1000
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ find [K~ [K[K ~ maxdepth=[K 1 -name ".*"
+[?2004l/home/eltex-v32/.viminfo
+/home/eltex-v32/.config
+/home/eltex-v32/.ssh
+/home/eltex-v32/.profile
+/home/eltex-v32/.bash_logout
+/home/eltex-v32/.bash_history
+/home/eltex-v32/.bashrc
+find: ‘maxdepth’: No such file or directory
+find: ‘1’: No such file or directory
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5l[?5h[?5l[?5h[?5lls -la grep | [K[K[K[K[K[K[K~ | grep "^\."
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export HISTTIMEFORMAT="%F %T "
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20
+[?2004lbash: hisrory: command not found
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20[P[1@t
+[?2004l    1  2026-07-09 17:24:32 w
+    2  2026-07-09 17:24:32 exit
+    3  2026-07-09 17:24:32 screen
+    4  2026-07-09 17:24:32 tree
+    5  2026-07-09 17:24:32 exit
+    6  2026-07-09 17:24:32 screen
+    7  2026-07-09 17:24:32 exit
+    8  2026-07-09 17:24:32 screen
+    9  2026-07-09 17:24:32 exit
+   10  2026-07-09 17:24:32 screen -ls
+   11  2026-07-09 17:24:32 exit
+   12  2026-07-09 17:24:32 -ls 
+   13  2026-07-09 17:24:32 screen -ls
+   14  2026-07-09 17:24:32 screen -r pts-38
+   15  2026-07-09 17:24:32 exit
+   16  2026-07-09 17:24:32 screen
+   17  2026-07-09 17:24:32 screen 
+   18  2026-07-09 17:24:32 w
+   19  2026-07-09 17:24:32 screen -S top -d -m top
+   20  2026-07-09 17:24:32 ls
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |tail -20
+[?2004l   86  2026-07-09 17:24:32 cat typescript
+   87  2026-07-09 17:24:32 rm typescript
+   88  2026-07-09 17:24:32 ls
+   89  2026-07-09 17:24:32 script -c practice2_$eltex-v32_part1.log
+   90  2026-07-09 17:24:32 rm typescript
+   91  2026-07-09 17:24:32 script -c "bash"  practice2_$eltex-v32_part1.log
+   92  2026-07-09 17:24:32 exit
+   93  2026-07-09 17:24:32 cat $USER_part2.log
+   94  2026-07-09 17:24:32 exit
+   95  2026-07-09 17:24:32 cat .log
+   96  2026-07-09 17:24:32 cat part2_log_check.log
+   97  2026-07-09 17:24:32 screen ls
+   98  2026-07-09 17:24:32 exit
+   99  2026-07-09 17:27:23 echo $HISTSIZE
+  100  2026-07-09 17:28:54 find ~ maxdepth 1 -name ".*"
+  101  2026-07-09 17:31:07 ls -la ~ | grep "^\."
+  102  2026-07-09 17:33:33 export HISTTIMEFORMAT="%F %T "
+  103  2026-07-09 17:33:49 hisrory |head -20
+  104  2026-07-09 17:33:55 history |head -20
+  105  2026-07-09 17:36:09 history |tail -20
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ date
+[?2004lThu Jul  9 05:37:45 PM +07 2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ datehistory |tail -20[K[K3
+[?2004l  105  2026-07-09 17:36:09 history |tail -20
+  106  2026-07-09 17:37:45 date
+  107  2026-07-09 17:38:51 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export Prm[K[K[K[K PROMPT_COMMAND="history -a.[K4[K$[K; $PROMPT_COMMAN D"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd
+[?2004l/home/eltex-v32
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisro[K[K[K[K[K[?5h[?5lpwdexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3
+[?2004l  108  2026-07-09 17:41:25 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+  109  2026-07-09 17:41:27 pwd
+  110  2026-07-09 17:41:42 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lv[KDATE=$(date +%Y-%m-%d)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo D[K$DATE
+[?2004l2026-07-09
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATE
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATEecho $DATE
+[?2004l
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATEunset DATEecho $DATE[K[?5h[?5lDATE=$(%d[K[Kdate +%d-%m-%Y)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATE
+[?2004l09-07-2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ TIME=$(time[K[K[K[Kdate +"[K%H^[K:%M:%S)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo TIME[K[K[K[K$TIME
+[?2004l17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE_TIME=([K$(date +%d-%m-%Y--[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$[K[K[K"$DATE $TIME"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ esc[K[Kcg[Kho $DATE_TIME
+[?2004l09-07-2026 17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5lecho $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%Y-%m-%d)[6Phistory |tail -3pwd[Kexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3date[Khistory |tail -20head -20rory |head -20export HISTTIMEFORMAT="%F %T "[9Pls -la ~ | grep "^\."find ~ maxdepth 1 -name ".*"[14Pecho $HISTSIZEfind ~ maxdepth 1 -name ".*"[7Pls -la ~ | grep "^\."export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20tail -20date[Khistory |tail -3export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ pwdhistory |tail -3DATE=$(date +%Y-%m-%d)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIME[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lfind /bin /sbin itype -f [K[K[K[K[K[K[K[K[Ktype -f -name"[K "[0-9]*" 2>dev[K[K[K/dev/nul l[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls .[K/bin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                  [1m[32m/bin/sha1sum[0m
+[1m[32m/bin/b2sum[0m                      [1m[32m/bin/sha224sum[0m
+[1m[32m/bin/base32[0m                     [1m[32m/bin/sha256sum[0m
+[1m[32m/bin/base64[0m                     [1m[32m/bin/sha384sum[0m
+[1m[32m/bin/bunzip2[0m                    [1m[32m/bin/sha512sum[0m
+[1m[32m/bin/bzip2[0m                      [1m[32m/bin/ssh-argv0[0m
+[1m[32m/bin/bzip2recover[0m               [1m[32m/bin/systemd-id128[0m
+[1m[36m/bin/c89[0m                        [1m[36m/bin/traceroute6[0m
+[1m[32m/bin/c89-gcc[0m                    [1m[36m/bin/traceroute6.db[0m
+[1m[36m/bin/c99[0m                        [1m[36m/bin/x86_64[0m
+[1m[32m/bin/c99-gcc[0m                    [1m[32m/bin/x86_64-linux-gnu-addr2line[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[36m/bin/cpp-12[0m                     [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/diff3[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/enc2xs[0m                     [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[36m/bin/gcc-12[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[36m/bin/gcc-ar-12[0m                  [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[36m/bin/gcc-nm-12[0m                  [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/gcc-ranlib-12[0m              [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[36m/bin/gcov-12[0m                    [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/gcov-dump-12[0m               [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[36m/bin/gcov-tool-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/grub-menulst2cfg[0m           [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m       [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/grub-syslinux2cfg[0m          [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/h2ph[0m                       [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[32m/bin/h2xs[0m                       [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/i386[0m                       [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/linux32[0m                    [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/linux64[0m                    [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/lto-dump-12[0m                [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[32m/bin/md5sum[0m                     [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/md5sum.textutils[0m           [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[36m/bin/pdb3[0m                       [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[36m/bin/pdb3.11[0m                    [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/perl5.36.0[0m                 [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[36m/bin/ping4[0m                      [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/ping6[0m                      [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[32m/bin/pl2pm[0m                      [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[32m/bin/pod2html[0m                   [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[32m/bin/pod2man[0m                    [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/pod2text[0m                   [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[32m/bin/pod2usage[0m                  [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[32m/bin/py3clean[0m                   [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[32m/bin/py3compile[0m                 [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[36m/bin/py3versions[0m                [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[36m/bin/pydoc3[0m                     [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[32m/bin/pydoc3.11[0m                  [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/pygettext3[0m                 [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pygettext3.11[0m              [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[36m/bin/python3[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/python3.11[0m                 [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*[Kls /bin/*[0-9]* /sbin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                   [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[32m/bin/b2sum[0m                       [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/base32[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/base64[0m                      [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[32m/bin/bunzip2[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[32m/bin/bzip2[0m                       [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[32m/bin/bzip2recover[0m                [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/c89[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[32m/bin/c89-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/c99[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[32m/bin/c99-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m   [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[36m/bin/cpp-12[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/diff3[0m                       [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/enc2xs[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[36m/bin/gcc-12[0m                      [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/gcc-ar-12[0m                   [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/gcc-nm-12[0m                   [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/gcc-ranlib-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/gcov-12[0m                     [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[36m/bin/gcov-dump-12[0m                [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/gcov-tool-12[0m                [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[32m/bin/grub-menulst2cfg[0m            [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m        [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/grub-syslinux2cfg[0m           [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/h2ph[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[32m/bin/h2xs[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/i386[0m                        [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[36m/bin/linux32[0m                     [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[36m/bin/linux64[0m                     [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[36m/bin/lto-dump-12[0m                 [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/md5sum[0m                      [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[36m/bin/md5sum.textutils[0m            [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[36m/bin/pdb3[0m                        [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[36m/bin/pdb3.11[0m                     [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[32m/bin/perl5.36.0[0m                  [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m   [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[36m/bin/ping4[0m                       [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/ping6[0m                       [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pl2pm[0m                       [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[32m/bin/pod2html[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/pod2man[0m                     [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[1m[32m/bin/pod2text[0m                    [1m[32m/sbin/dumpe2fs[0m
+[1m[32m/bin/pod2usage[0m                   [1m[32m/sbin/e2freefrag[0m
+[1m[32m/bin/py3clean[0m                    [1m[32m/sbin/e2fsck[0m
+[1m[32m/bin/py3compile[0m                  [1m[32m/sbin/e2image[0m
+[1m[36m/bin/py3versions[0m                 [1m[36m/sbin/e2label[0m
+[1m[36m/bin/pydoc3[0m                      [1m[36m/sbin/e2mmpstatus[0m
+[1m[32m/bin/pydoc3.11[0m                   [1m[32m/sbin/e2scrub[0m
+[1m[36m/bin/pygettext3[0m                  [1m[32m/sbin/e2scrub_all[0m
+[1m[32m/bin/pygettext3.11[0m               [1m[32m/sbin/e2undo[0m
+[1m[36m/bin/python3[0m                     [1m[32m/sbin/e4crypt[0m
+[1m[32m/bin/python3.11[0m                  [1m[32m/sbin/e4defrag[0m
+[1m[32m/bin/sha1sum[0m                     [1m[36m/sbin/fsck.ext2[0m
+[1m[32m/bin/sha224sum[0m                   [1m[36m/sbin/fsck.ext3[0m
+[1m[32m/bin/sha256sum[0m                   [1m[36m/sbin/fsck.ext4[0m
+[1m[32m/bin/sha384sum[0m                   [1m[32m/sbin/killall5[0m
+[1m[32m/bin/sha512sum[0m                   [1m[32m/sbin/mke2fs[0m
+[1m[32m/bin/ssh-argv0[0m                   [1m[36m/sbin/mkfs.ext2[0m
+[1m[32m/bin/systemd-id128[0m               [1m[36m/sbin/mkfs.ext3[0m
+[1m[36m/bin/traceroute6[0m                 [1m[36m/sbin/mkfs.ext4[0m
+[1m[36m/bin/traceroute6.db[0m              [1m[32m/sbin/resize2fs[0m
+[1m[36m/bin/x86_64[0m                      [1m[32m/sbin/tune2fs[0m
+[1m[32m/bin/x86_64-linux-gnu-addr2line[0m  [1m[36m/sbin/update-grub2[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]* /sbin/*[0-9]*[KPS1= [K[K[K[K[K[?5h[?5lecho $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export PS1= "[K'//[K[K\u@\h-$(date+%H:%M)> '
+[?2004lbash: export: `\u@\h-$(date+%H:%M)> ': not a valid identifier
+[?2004hexport PS1= '\u@\h-$(date+%H:%M)> 'e[K[?5h[?5l[?2004l[?2004h^C[?2004l[?2004h[?2004l
+[?2004hq[Ko
+[?2004lbash: o: command not found
+[?2004h[?5h[?5lq[K^[K:q
+[?2004lbash: :q: command not found
+[?2004hexit
+[?2004lexit
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ scree[Ken -ls
+[?2004lNo Sockets found in /run/screen/S-eltex-v32.
+
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ part2_log_check/[K.logcpart2_log_check.logapart2_log_check.logtpart2_log_check.log part2_log_check.log
+[?2004lScript started on 2026-07-09 17:23:51+07:00 [COMMAND="bash" TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="80" LINES="23"]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen ls
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2Jpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -sS[K[KS whoami_part2
+[?2004lbash: screnn: command not found
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -S whoami_part2[1P[1@e
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [?5h[?5l
+.bash_history             part2_log_check.log       .ssh/
+.bash_logout              practice2_-v32_part1.log  .viminfo
+.bashrc                   .profile                  
+.config/                  report_part1.txt          
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [K[?5h[?5l
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls[K[Kecho $HIST[?5h[?5l
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $HISTSIZE
+[?2004l1000
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ find [K~ [K[K ~ maxdepth=[K 1 -name ".*"
+[?2004l/home/eltex-v32/.viminfo
+/home/eltex-v32/.config
+/home/eltex-v32/.ssh
+/home/eltex-v32/.profile
+/home/eltex-v32/.bash_logout
+/home/eltex-v32/.bash_history
+/home/eltex-v32/.bashrc
+find: ‘maxdepth’: No such file or directory
+find: ‘1’: No such file or directory
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5l[?5h[?5l[?5h[?5lls -la grep | [K[K[K[K[K[K[K~ | grep "^\."
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export HISTTIMEFORMAT="%F %T "
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20
+[?2004lbash: hisrory: command not found
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20[P[1@t
+[?2004l    1  2026-07-09 17:24:32 w
+    2  2026-07-09 17:24:32 exit
+    3  2026-07-09 17:24:32 screen
+    4  2026-07-09 17:24:32 tree
+    5  2026-07-09 17:24:32 exit
+    6  2026-07-09 17:24:32 screen
+    7  2026-07-09 17:24:32 exit
+    8  2026-07-09 17:24:32 screen
+    9  2026-07-09 17:24:32 exit
+   10  2026-07-09 17:24:32 screen -ls
+   11  2026-07-09 17:24:32 exit
+   12  2026-07-09 17:24:32 -ls 
+   13  2026-07-09 17:24:32 screen -ls
+   14  2026-07-09 17:24:32 screen -r pts-38
+   15  2026-07-09 17:24:32 exit
+   16  2026-07-09 17:24:32 screen
+   17  2026-07-09 17:24:32 screen 
+   18  2026-07-09 17:24:32 w
+   19  2026-07-09 17:24:32 screen -S top -d -m top
+   20  2026-07-09 17:24:32 ls
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |tail -20
+[?2004l   86  2026-07-09 17:24:32 cat typescript
+   87  2026-07-09 17:24:32 rm typescript
+   88  2026-07-09 17:24:32 ls
+   89  2026-07-09 17:24:32 script -c practice2_$eltex-v32_part1.log
+   90  2026-07-09 17:24:32 rm typescript
+   91  2026-07-09 17:24:32 script -c "bash"  practice2_$eltex-v32_part1.log
+   92  2026-07-09 17:24:32 exit
+   93  2026-07-09 17:24:32 cat $USER_part2.log
+   94  2026-07-09 17:24:32 exit
+   95  2026-07-09 17:24:32 cat .log
+   96  2026-07-09 17:24:32 cat part2_log_check.log
+   97  2026-07-09 17:24:32 screen ls
+   98  2026-07-09 17:24:32 exit
+   99  2026-07-09 17:27:23 echo $HISTSIZE
+  100  2026-07-09 17:28:54 find ~ maxdepth 1 -name ".*"
+  101  2026-07-09 17:31:07 ls -la ~ | grep "^\."
+  102  2026-07-09 17:33:33 export HISTTIMEFORMAT="%F %T "
+  103  2026-07-09 17:33:49 hisrory |head -20
+  104  2026-07-09 17:33:55 history |head -20
+  105  2026-07-09 17:36:09 history |tail -20
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ date
+[?2004lThu Jul  9 05:37:45 PM +07 2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ datehistory |tail -20[K[K3
+[?2004l  105  2026-07-09 17:36:09 history |tail -20
+  106  2026-07-09 17:37:45 date
+  107  2026-07-09 17:38:51 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export Prm[K[K[K[K PROMPT_COMMAND="history -a.[K4[K$[K; $PROMPT_COMMAN D"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd
+[?2004l/home/eltex-v32
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisro[K[K[K[K[K[?5h[?5lpwdexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3
+[?2004l  108  2026-07-09 17:41:25 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+  109  2026-07-09 17:41:27 pwd
+  110  2026-07-09 17:41:42 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lv[KDATE=$(date +%Y-%m-%d)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo D[K$DATE
+[?2004l2026-07-09
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATE
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATEecho $DATE
+[?2004l
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATEunset DATEecho $DATE[K[?5h[?5lDATE=$(%d[K[Kdate +%d-%m-%Y)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATE
+[?2004l09-07-2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ TIME=$(time[K[K[K[Kdate +"[K%H^[K:%M:%S)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo TIME[K[K[K[K$TIME
+[?2004l17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE_TIME=([K$(date +%d-%m-%Y--[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$[K[K[K"$DATE $TIME"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ esc[K[Kcg[Kho $DATE_TIME
+[?2004l09-07-2026 17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5lecho $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%Y-%m-%d)[6Phistory |tail -3pwd[Kexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3date[Khistory |tail -20head -20rory |head -20export HISTTIMEFORMAT="%F %T "[9Pls -la ~ | grep "^\."find ~ maxdepth 1 -name ".*"[14Pecho $HISTSIZEfind ~ maxdepth 1 -name ".*"[7Pls -la ~ | grep "^\."export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20tail -20date[Khistory |tail -3export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ pwdhistory |tail -3DATE=$(date +%Y-%m-%d)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIME[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lfind /bin /sbin itype -f [K[K[K[K[K[K[K[K[Ktype -f -name"[K "[0-9]*" 2>dev[K[K[K/dev/nul l[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls .[K/bin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                  [1m[32m/bin/sha1sum[0m
+[1m[32m/bin/b2sum[0m                      [1m[32m/bin/sha224sum[0m
+[1m[32m/bin/base32[0m                     [1m[32m/bin/sha256sum[0m
+[1m[32m/bin/base64[0m                     [1m[32m/bin/sha384sum[0m
+[1m[32m/bin/bunzip2[0m                    [1m[32m/bin/sha512sum[0m
+[1m[32m/bin/bzip2[0m                      [1m[32m/bin/ssh-argv0[0m
+[1m[32m/bin/bzip2recover[0m               [1m[32m/bin/systemd-id128[0m
+[1m[36m/bin/c89[0m                        [1m[36m/bin/traceroute6[0m
+[1m[32m/bin/c89-gcc[0m                    [1m[36m/bin/traceroute6.db[0m
+[1m[36m/bin/c99[0m                        [1m[36m/bin/x86_64[0m
+[1m[32m/bin/c99-gcc[0m                    [1m[32m/bin/x86_64-linux-gnu-addr2line[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[36m/bin/cpp-12[0m                     [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/diff3[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/enc2xs[0m                     [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[36m/bin/gcc-12[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[36m/bin/gcc-ar-12[0m                  [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[36m/bin/gcc-nm-12[0m                  [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/gcc-ranlib-12[0m              [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[36m/bin/gcov-12[0m                    [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/gcov-dump-12[0m               [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[36m/bin/gcov-tool-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/grub-menulst2cfg[0m           [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m       [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/grub-syslinux2cfg[0m          [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/h2ph[0m                       [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[32m/bin/h2xs[0m                       [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/i386[0m                       [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/linux32[0m                    [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/linux64[0m                    [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/lto-dump-12[0m                [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[32m/bin/md5sum[0m                     [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/md5sum.textutils[0m           [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[36m/bin/pdb3[0m                       [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[36m/bin/pdb3.11[0m                    [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/perl5.36.0[0m                 [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[36m/bin/ping4[0m                      [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/ping6[0m                      [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[32m/bin/pl2pm[0m                      [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[32m/bin/pod2html[0m                   [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[32m/bin/pod2man[0m                    [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/pod2text[0m                   [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[32m/bin/pod2usage[0m                  [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[32m/bin/py3clean[0m                   [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[32m/bin/py3compile[0m                 [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[36m/bin/py3versions[0m                [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[36m/bin/pydoc3[0m                     [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[32m/bin/pydoc3.11[0m                  [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/pygettext3[0m                 [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pygettext3.11[0m              [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[36m/bin/python3[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/python3.11[0m                 [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*[Kls /bin/*[0-9]* /sbin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                   [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[32m/bin/b2sum[0m                       [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/base32[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/base64[0m                      [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[32m/bin/bunzip2[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[32m/bin/bzip2[0m                       [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[32m/bin/bzip2recover[0m                [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/c89[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[32m/bin/c89-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/c99[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[32m/bin/c99-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m   [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[36m/bin/cpp-12[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/diff3[0m                       [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/enc2xs[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[36m/bin/gcc-12[0m                      [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/gcc-ar-12[0m                   [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/gcc-nm-12[0m                   [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/gcc-ranlib-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/gcov-12[0m                     [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[36m/bin/gcov-dump-12[0m                [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/gcov-tool-12[0m                [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[32m/bin/grub-menulst2cfg[0m            [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m        [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/grub-syslinux2cfg[0m           [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/h2ph[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[32m/bin/h2xs[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/i386[0m                        [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[36m/bin/linux32[0m                     [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[36m/bin/linux64[0m                     [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[36m/bin/lto-dump-12[0m                 [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/md5sum[0m                      [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[36m/bin/md5sum.textutils[0m            [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[36m/bin/pdb3[0m                        [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[36m/bin/pdb3.11[0m                     [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[32m/bin/perl5.36.0[0m                  [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m   [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[36m/bin/ping4[0m                       [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/ping6[0m                       [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pl2pm[0m                       [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[32m/bin/pod2html[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/pod2man[0m                     [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[1m[32m/bin/pod2text[0m                    [1m[32m/sbin/dumpe2fs[0m
+[1m[32m/bin/pod2usage[0m                   [1m[32m/sbin/e2freefrag[0m
+[1m[32m/bin/py3clean[0m                    [1m[32m/sbin/e2fsck[0m
+[1m[32m/bin/py3compile[0m                  [1m[32m/sbin/e2image[0m
+[1m[36m/bin/py3versions[0m                 [1m[36m/sbin/e2label[0m
+[1m[36m/bin/pydoc3[0m                      [1m[36m/sbin/e2mmpstatus[0m
+[1m[32m/bin/pydoc3.11[0m                   [1m[32m/sbin/e2scrub[0m
+[1m[36m/bin/pygettext3[0m                  [1m[32m/sbin/e2scrub_all[0m
+[1m[32m/bin/pygettext3.11[0m               [1m[32m/sbin/e2undo[0m
+[1m[36m/bin/python3[0m                     [1m[32m/sbin/e4crypt[0m
+[1m[32m/bin/python3.11[0m                  [1m[32m/sbin/e4defrag[0m
+[1m[32m/bin/sha1sum[0m                     [1m[36m/sbin/fsck.ext2[0m
+[1m[32m/bin/sha224sum[0m                   [1m[36m/sbin/fsck.ext3[0m
+[1m[32m/bin/sha256sum[0m                   [1m[36m/sbin/fsck.ext4[0m
+[1m[32m/bin/sha384sum[0m                   [1m[32m/sbin/killall5[0m
+[1m[32m/bin/sha512sum[0m                   [1m[32m/sbin/mke2fs[0m
+[1m[32m/bin/ssh-argv0[0m                   [1m[36m/sbin/mkfs.ext2[0m
+[1m[32m/bin/systemd-id128[0m               [1m[36m/sbin/mkfs.ext3[0m
+[1m[36m/bin/traceroute6[0m                 [1m[36m/sbin/mkfs.ext4[0m
+[1m[36m/bin/traceroute6.db[0m              [1m[32m/sbin/resize2fs[0m
+[1m[36m/bin/x86_64[0m                      [1m[32m/sbin/tune2fs[0m
+[1m[32m/bin/x86_64-linux-gnu-addr2line[0m  [1m[36m/sbin/update-grub2[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]* /sbin/*[0-9]*[KPS1= [K[K[K[K[K[?5h[?5lecho $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export PS1= "[K'//[K[K\u@\h-$(date+%H:%M)> '
+[?2004lbash: export: `\u@\h-$(date+%H:%M)> ': not a valid identifier
+[?2004hexport PS1= '\u@\h-$(date+%H:%M)> 'e[K[?5h[?5l[?2004l[?2004h^C[?2004l[?2004h[?2004l
+[?2004hq[Ko
+[?2004lbash: o: command not found
+[?2004h[?5h[?5lq[K^[K:q
+[?2004lbash: :q: command not found
+[?2004hexit
+[?2004lexit
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ scree[Ken -ls
+[?2004lNo Sockets found in /run/screen/S-eltex-v32.
+
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ part2_log_check/[K.logcpart2_log_check.logapart2_log_check.logtpart2_log_check.log part2_log_check.log
+[?2004lScript started on 2026-07-09 17:23:51+07:00 [COMMAND="bash" TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="80" LINES="23"]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen ls
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2Jpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -sS[K[KS whoami_part2
+[?2004lbash: screnn: command not found
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -S whoami_part2[1P[1@e
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [?5h[?5l
+.bash_history             part2_log_check.log       .ssh/
+.bash_logout              practice2_-v32_part1.log  .viminfo
+.bashrc                   .profile                  
+.config/                  report_part1.txt          
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [K[?5h[?5l
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls[K[Kecho $HIST[?5h[?5l
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $HISTSIZE
+[?2004l1000
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ find [K~ [K[K ~ maxdepth=[K 1 -name ".*"
+[?2004l/home/eltex-v32/.viminfo
+/home/eltex-v32/.config
+/home/eltex-v32/.ssh
+/home/eltex-v32/.profile
+/home/eltex-v32/.bash_logout
+/home/eltex-v32/.bash_history
+/home/eltex-v32/.bashrc
+find: ‘maxdepth’: No such file or directory
+find: ‘1’: No such file or directory
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5l[?5h[?5l[?5h[?5lls -la grep | [K[K[K[K[K[K[K~ | grep "^\."
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export HISTTIMEFORMAT="%F %T "
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20
+[?2004lbash: hisrory: command not found
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20[P[1@t
+[?2004l    1  2026-07-09 17:24:32 w
+    2  2026-07-09 17:24:32 exit
+    3  2026-07-09 17:24:32 screen
+    4  2026-07-09 17:24:32 tree
+    5  2026-07-09 17:24:32 exit
+    6  2026-07-09 17:24:32 screen
+    7  2026-07-09 17:24:32 exit
+    8  2026-07-09 17:24:32 screen
+    9  2026-07-09 17:24:32 exit
+   10  2026-07-09 17:24:32 screen -ls
+   11  2026-07-09 17:24:32 exit
+   12  2026-07-09 17:24:32 -ls 
+   13  2026-07-09 17:24:32 screen -ls
+   14  2026-07-09 17:24:32 screen -r pts-38
+   15  2026-07-09 17:24:32 exit
+   16  2026-07-09 17:24:32 screen
+   17  2026-07-09 17:24:32 screen 
+   18  2026-07-09 17:24:32 w
+   19  2026-07-09 17:24:32 screen -S top -d -m top
+   20  2026-07-09 17:24:32 ls
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |tail -20
+[?2004l   86  2026-07-09 17:24:32 cat typescript
+   87  2026-07-09 17:24:32 rm typescript
+   88  2026-07-09 17:24:32 ls
+   89  2026-07-09 17:24:32 script -c practice2_$eltex-v32_part1.log
+   90  2026-07-09 17:24:32 rm typescript
+   91  2026-07-09 17:24:32 script -c "bash"  practice2_$eltex-v32_part1.log
+   92  2026-07-09 17:24:32 exit
+   93  2026-07-09 17:24:32 cat $USER_part2.log
+   94  2026-07-09 17:24:32 exit
+   95  2026-07-09 17:24:32 cat .log
+   96  2026-07-09 17:24:32 cat part2_log_check.log
+   97  2026-07-09 17:24:32 screen ls
+   98  2026-07-09 17:24:32 exit
+   99  2026-07-09 17:27:23 echo $HISTSIZE
+  100  2026-07-09 17:28:54 find ~ maxdepth 1 -name ".*"
+  101  2026-07-09 17:31:07 ls -la ~ | grep "^\."
+  102  2026-07-09 17:33:33 export HISTTIMEFORMAT="%F %T "
+  103  2026-07-09 17:33:49 hisrory |head -20
+  104  2026-07-09 17:33:55 history |head -20
+  105  2026-07-09 17:36:09 history |tail -20
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ date
+[?2004lThu Jul  9 05:37:45 PM +07 2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ datehistory |tail -20[K[K3
+[?2004l  105  2026-07-09 17:36:09 history |tail -20
+  106  2026-07-09 17:37:45 date
+  107  2026-07-09 17:38:51 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export Prm[K[K[K[K PROMPT_COMMAND="history -a.[K4[K$[K; $PROMPT_COMMAN D"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd
+[?2004l/home/eltex-v32
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisro[K[K[K[K[K[?5h[?5lpwdexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3
+[?2004l  108  2026-07-09 17:41:25 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+  109  2026-07-09 17:41:27 pwd
+  110  2026-07-09 17:41:42 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lv[KDATE=$(date +%Y-%m-%d)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo D[K$DATE
+[?2004l2026-07-09
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATE
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATEecho $DATE
+[?2004l
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATEunset DATEecho $DATE[K[?5h[?5lDATE=$(%d[K[Kdate +%d-%m-%Y)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATE
+[?2004l09-07-2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ TIME=$(time[K[K[K[Kdate +"[K%H^[K:%M:%S)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo TIME[K[K[K[K$TIME
+[?2004l17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE_TIME=([K$(date +%d-%m-%Y--[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$[K[K[K"$DATE $TIME"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ esc[K[Kcg[Kho $DATE_TIME
+[?2004l09-07-2026 17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5lecho $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%Y-%m-%d)[6Phistory |tail -3pwd[Kexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3date[Khistory |tail -20head -20rory |head -20export HISTTIMEFORMAT="%F %T "[9Pls -la ~ | grep "^\."find ~ maxdepth 1 -name ".*"[14Pecho $HISTSIZEfind ~ maxdepth 1 -name ".*"[7Pls -la ~ | grep "^\."export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20tail -20date[Khistory |tail -3export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ pwdhistory |tail -3DATE=$(date +%Y-%m-%d)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIME[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lfind /bin /sbin itype -f [K[K[K[K[K[K[K[K[Ktype -f -name"[K "[0-9]*" 2>dev[K[K[K/dev/nul l[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls .[K/bin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                  [1m[32m/bin/sha1sum[0m
+[1m[32m/bin/b2sum[0m                      [1m[32m/bin/sha224sum[0m
+[1m[32m/bin/base32[0m                     [1m[32m/bin/sha256sum[0m
+[1m[32m/bin/base64[0m                     [1m[32m/bin/sha384sum[0m
+[1m[32m/bin/bunzip2[0m                    [1m[32m/bin/sha512sum[0m
+[1m[32m/bin/bzip2[0m                      [1m[32m/bin/ssh-argv0[0m
+[1m[32m/bin/bzip2recover[0m               [1m[32m/bin/systemd-id128[0m
+[1m[36m/bin/c89[0m                        [1m[36m/bin/traceroute6[0m
+[1m[32m/bin/c89-gcc[0m                    [1m[36m/bin/traceroute6.db[0m
+[1m[36m/bin/c99[0m                        [1m[36m/bin/x86_64[0m
+[1m[32m/bin/c99-gcc[0m                    [1m[32m/bin/x86_64-linux-gnu-addr2line[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[36m/bin/cpp-12[0m                     [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/diff3[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/enc2xs[0m                     [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[36m/bin/gcc-12[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[36m/bin/gcc-ar-12[0m                  [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[36m/bin/gcc-nm-12[0m                  [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/gcc-ranlib-12[0m              [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[36m/bin/gcov-12[0m                    [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/gcov-dump-12[0m               [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[36m/bin/gcov-tool-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/grub-menulst2cfg[0m           [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m       [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/grub-syslinux2cfg[0m          [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/h2ph[0m                       [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[32m/bin/h2xs[0m                       [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/i386[0m                       [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/linux32[0m                    [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/linux64[0m                    [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/lto-dump-12[0m                [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[32m/bin/md5sum[0m                     [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/md5sum.textutils[0m           [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[36m/bin/pdb3[0m                       [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[36m/bin/pdb3.11[0m                    [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/perl5.36.0[0m                 [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[36m/bin/ping4[0m                      [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/ping6[0m                      [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[32m/bin/pl2pm[0m                      [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[32m/bin/pod2html[0m                   [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[32m/bin/pod2man[0m                    [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/pod2text[0m                   [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[32m/bin/pod2usage[0m                  [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[32m/bin/py3clean[0m                   [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[32m/bin/py3compile[0m                 [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[36m/bin/py3versions[0m                [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[36m/bin/pydoc3[0m                     [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[32m/bin/pydoc3.11[0m                  [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/pygettext3[0m                 [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pygettext3.11[0m              [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[36m/bin/python3[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/python3.11[0m                 [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*[Kls /bin/*[0-9]* /sbin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                   [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[32m/bin/b2sum[0m                       [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/base32[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/base64[0m                      [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[32m/bin/bunzip2[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[32m/bin/bzip2[0m                       [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[32m/bin/bzip2recover[0m                [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/c89[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[32m/bin/c89-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/c99[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[32m/bin/c99-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m   [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[36m/bin/cpp-12[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/diff3[0m                       [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/enc2xs[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[36m/bin/gcc-12[0m                      [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/gcc-ar-12[0m                   [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/gcc-nm-12[0m                   [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/gcc-ranlib-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/gcov-12[0m                     [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[36m/bin/gcov-dump-12[0m                [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/gcov-tool-12[0m                [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[32m/bin/grub-menulst2cfg[0m            [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m        [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/grub-syslinux2cfg[0m           [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/h2ph[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[32m/bin/h2xs[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/i386[0m                        [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[36m/bin/linux32[0m                     [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[36m/bin/linux64[0m                     [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[36m/bin/lto-dump-12[0m                 [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/md5sum[0m                      [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[36m/bin/md5sum.textutils[0m            [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[36m/bin/pdb3[0m                        [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[36m/bin/pdb3.11[0m                     [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[32m/bin/perl5.36.0[0m                  [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m   [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[36m/bin/ping4[0m                       [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/ping6[0m                       [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pl2pm[0m                       [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[32m/bin/pod2html[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/pod2man[0m                     [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[1m[32m/bin/pod2text[0m                    [1m[32m/sbin/dumpe2fs[0m
+[1m[32m/bin/pod2usage[0m                   [1m[32m/sbin/e2freefrag[0m
+[1m[32m/bin/py3clean[0m                    [1m[32m/sbin/e2fsck[0m
+[1m[32m/bin/py3compile[0m                  [1m[32m/sbin/e2image[0m
+[1m[36m/bin/py3versions[0m                 [1m[36m/sbin/e2label[0m
+[1m[36m/bin/pydoc3[0m                      [1m[36m/sbin/e2mmpstatus[0m
+[1m[32m/bin/pydoc3.11[0m                   [1m[32m/sbin/e2scrub[0m
+[1m[36m/bin/pygettext3[0m                  [1m[32m/sbin/e2scrub_all[0m
+[1m[32m/bin/pygettext3.11[0m               [1m[32m/sbin/e2undo[0m
+[1m[36m/bin/python3[0m                     [1m[32m/sbin/e4crypt[0m
+[1m[32m/bin/python3.11[0m                  [1m[32m/sbin/e4defrag[0m
+[1m[32m/bin/sha1sum[0m                     [1m[36m/sbin/fsck.ext2[0m
+[1m[32m/bin/sha224sum[0m                   [1m[36m/sbin/fsck.ext3[0m
+[1m[32m/bin/sha256sum[0m                   [1m[36m/sbin/fsck.ext4[0m
+[1m[32m/bin/sha384sum[0m                   [1m[32m/sbin/killall5[0m
+[1m[32m/bin/sha512sum[0m                   [1m[32m/sbin/mke2fs[0m
+[1m[32m/bin/ssh-argv0[0m                   [1m[36m/sbin/mkfs.ext2[0m
+[1m[32m/bin/systemd-id128[0m               [1m[36m/sbin/mkfs.ext3[0m
+[1m[36m/bin/traceroute6[0m                 [1m[36m/sbin/mkfs.ext4[0m
+[1m[36m/bin/traceroute6.db[0m              [1m[32m/sbin/resize2fs[0m
+[1m[36m/bin/x86_64[0m                      [1m[32m/sbin/tune2fs[0m
+[1m[32m/bin/x86_64-linux-gnu-addr2line[0m  [1m[36m/sbin/update-grub2[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]* /sbin/*[0-9]*[KPS1= [K[K[K[K[K[?5h[?5lecho $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export PS1= "[K'//[K[K\u@\h-$(date+%H:%M)> '
+[?2004lbash: export: `\u@\h-$(date+%H:%M)> ': not a valid identifier
+[?2004hexport PS1= '\u@\h-$(date+%H:%M)> 'e[K[?5h[?5l[?2004l[?2004h^C[?2004l[?2004h[?2004l
+[?2004hq[Ko
+[?2004lbash: o: command not found
+[?2004h[?5h[?5lq[K^[K:q
+[?2004lbash: :q: command not found
+[?2004hexit
+[?2004lexit
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ scree[Ken -ls
+[?2004lNo Sockets found in /run/screen/S-eltex-v32.
+
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ part2_log_check/[K.logcpart2_log_check.logapart2_log_check.logtpart2_log_check.log part2_log_check.log
+[?2004lScript started on 2026-07-09 17:23:51+07:00 [COMMAND="bash" TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="80" LINES="23"]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen ls
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2Jpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -sS[K[KS whoami_part2
+[?2004lbash: screnn: command not found
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -S whoami_part2[1P[1@e
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [?5h[?5l
+.bash_history             part2_log_check.log       .ssh/
+.bash_logout              practice2_-v32_part1.log  .viminfo
+.bashrc                   .profile                  
+.config/                  report_part1.txt          
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [K[?5h[?5l
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls[K[Kecho $HIST[?5h[?5l
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $HISTSIZE
+[?2004l1000
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ find [K~ [K[K ~ maxdepth=[K 1 -name ".*"
+[?2004l/home/eltex-v32/.viminfo
+/home/eltex-v32/.config
+/home/eltex-v32/.ssh
+/home/eltex-v32/.profile
+/home/eltex-v32/.bash_logout
+/home/eltex-v32/.bash_history
+/home/eltex-v32/.bashrc
+find: ‘maxdepth’: No such file or directory
+find: ‘1’: No such file or directory
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5l[?5h[?5l[?5h[?5lls -la grep | [K[K[K[K[K[K[K~ | grep "^\."
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export HISTTIMEFORMAT="%F %T "
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20
+[?2004lbash: hisrory: command not found
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20[P[1@t
+[?2004l    1  2026-07-09 17:24:32 w
+    2  2026-07-09 17:24:32 exit
+    3  2026-07-09 17:24:32 screen
+    4  2026-07-09 17:24:32 tree
+    5  2026-07-09 17:24:32 exit
+    6  2026-07-09 17:24:32 screen
+    7  2026-07-09 17:24:32 exit
+    8  2026-07-09 17:24:32 screen
+    9  2026-07-09 17:24:32 exit
+   10  2026-07-09 17:24:32 screen -ls
+   11  2026-07-09 17:24:32 exit
+   12  2026-07-09 17:24:32 -ls 
+   13  2026-07-09 17:24:32 screen -ls
+   14  2026-07-09 17:24:32 screen -r pts-38
+   15  2026-07-09 17:24:32 exit
+   16  2026-07-09 17:24:32 screen
+   17  2026-07-09 17:24:32 screen 
+   18  2026-07-09 17:24:32 w
+   19  2026-07-09 17:24:32 screen -S top -d -m top
+   20  2026-07-09 17:24:32 ls
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |head -20rory |head -20export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lhistory |tail -20
+[?2004l   86  2026-07-09 17:24:32 cat typescript
+   87  2026-07-09 17:24:32 rm typescript
+   88  2026-07-09 17:24:32 ls
+   89  2026-07-09 17:24:32 script -c practice2_$eltex-v32_part1.log
+   90  2026-07-09 17:24:32 rm typescript
+   91  2026-07-09 17:24:32 script -c "bash"  practice2_$eltex-v32_part1.log
+   92  2026-07-09 17:24:32 exit
+   93  2026-07-09 17:24:32 cat $USER_part2.log
+   94  2026-07-09 17:24:32 exit
+   95  2026-07-09 17:24:32 cat .log
+   96  2026-07-09 17:24:32 cat part2_log_check.log
+   97  2026-07-09 17:24:32 screen ls
+   98  2026-07-09 17:24:32 exit
+   99  2026-07-09 17:27:23 echo $HISTSIZE
+  100  2026-07-09 17:28:54 find ~ maxdepth 1 -name ".*"
+  101  2026-07-09 17:31:07 ls -la ~ | grep "^\."
+  102  2026-07-09 17:33:33 export HISTTIMEFORMAT="%F %T "
+  103  2026-07-09 17:33:49 hisrory |head -20
+  104  2026-07-09 17:33:55 history |head -20
+  105  2026-07-09 17:36:09 history |tail -20
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ date
+[?2004lThu Jul  9 05:37:45 PM +07 2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ datehistory |tail -20[K[K3
+[?2004l  105  2026-07-09 17:36:09 history |tail -20
+  106  2026-07-09 17:37:45 date
+  107  2026-07-09 17:38:51 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export Prm[K[K[K[K PROMPT_COMMAND="history -a.[K4[K$[K; $PROMPT_COMMAN D"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd
+[?2004l/home/eltex-v32
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisro[K[K[K[K[K[?5h[?5lpwdexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3
+[?2004l  108  2026-07-09 17:41:25 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+  109  2026-07-09 17:41:27 pwd
+  110  2026-07-09 17:41:42 history |tail -3
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lv[KDATE=$(date +%Y-%m-%d)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo D[K$DATE
+[?2004l2026-07-09
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATE
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ unset DATEecho $DATE
+[?2004l
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATEunset DATEecho $DATE[K[?5h[?5lDATE=$(%d[K[Kdate +%d-%m-%Y)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $DATE
+[?2004l09-07-2026
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ TIME=$(time[K[K[K[Kdate +"[K%H^[K:%M:%S)
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo TIME[K[K[K[K$TIME
+[?2004l17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ DATE_TIME=([K$(date +%d-%m-%Y--[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$[K[K[K"$DATE $TIME"
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ esc[K[Kcg[Kho $DATE_TIME
+[?2004l09-07-2026 17:49:07
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5lecho $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%Y-%m-%d)[6Phistory |tail -3pwd[Kexport PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |tail -3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ history |tail -3date[Khistory |tail -20head -20rory |head -20export HISTTIMEFORMAT="%F %T "[9Pls -la ~ | grep "^\."find ~ maxdepth 1 -name ".*"[14Pecho $HISTSIZEfind ~ maxdepth 1 -name ".*"[7Pls -la ~ | grep "^\."export HISTTIMEFORMAT="%F %T "[13Phisrory |head -20tory |head -20tail -20date[Khistory |tail -3export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"[A[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ pwdhistory |tail -3DATE=$(date +%Y-%m-%d)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIME[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lfind /bin /sbin itype -f [K[K[K[K[K[K[K[K[Ktype -f -name"[K "[0-9]*" 2>dev[K[K[K/dev/nul l[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C$ find /bin /sbin type -f -name "[0-9]*" 2>/dev/nu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls .[K/bin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                  [1m[32m/bin/sha1sum[0m
+[1m[32m/bin/b2sum[0m                      [1m[32m/bin/sha224sum[0m
+[1m[32m/bin/base32[0m                     [1m[32m/bin/sha256sum[0m
+[1m[32m/bin/base64[0m                     [1m[32m/bin/sha384sum[0m
+[1m[32m/bin/bunzip2[0m                    [1m[32m/bin/sha512sum[0m
+[1m[32m/bin/bzip2[0m                      [1m[32m/bin/ssh-argv0[0m
+[1m[32m/bin/bzip2recover[0m               [1m[32m/bin/systemd-id128[0m
+[1m[36m/bin/c89[0m                        [1m[36m/bin/traceroute6[0m
+[1m[32m/bin/c89-gcc[0m                    [1m[36m/bin/traceroute6.db[0m
+[1m[36m/bin/c99[0m                        [1m[36m/bin/x86_64[0m
+[1m[32m/bin/c99-gcc[0m                    [1m[32m/bin/x86_64-linux-gnu-addr2line[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[36m/bin/cpp-12[0m                     [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/diff3[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/enc2xs[0m                     [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[36m/bin/gcc-12[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[36m/bin/gcc-ar-12[0m                  [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[36m/bin/gcc-nm-12[0m                  [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/gcc-ranlib-12[0m              [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[36m/bin/gcov-12[0m                    [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/gcov-dump-12[0m               [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[36m/bin/gcov-tool-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/grub-menulst2cfg[0m           [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m       [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/grub-syslinux2cfg[0m          [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/h2ph[0m                       [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[32m/bin/h2xs[0m                       [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/i386[0m                       [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/linux32[0m                    [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/linux64[0m                    [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/lto-dump-12[0m                [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[32m/bin/md5sum[0m                     [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/md5sum.textutils[0m           [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[36m/bin/pdb3[0m                       [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[36m/bin/pdb3.11[0m                    [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/perl5.36.0[0m                 [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m  [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[36m/bin/ping4[0m                      [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/ping6[0m                      [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[32m/bin/pl2pm[0m                      [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[32m/bin/pod2html[0m                   [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[32m/bin/pod2man[0m                    [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/pod2text[0m                   [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[32m/bin/pod2usage[0m                  [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[32m/bin/py3clean[0m                   [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[32m/bin/py3compile[0m                 [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[36m/bin/py3versions[0m                [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[36m/bin/pydoc3[0m                     [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[32m/bin/pydoc3.11[0m                  [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/pygettext3[0m                 [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pygettext3.11[0m              [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[36m/bin/python3[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/python3.11[0m                 [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATEunset DATEecho $DATEDATE=$(date +%d-%m-%Y)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*echo $DATE_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $DATETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATE_TIMEls /bin/*[0-9]*[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lls /bin/*[0-9]*[Kls /bin/*[0-9]* /sbin/*[0-9]*
+[?2004l[1m[36m/bin/addr2line[0m                   [1m[32m/bin/x86_64-linux-gnu-ar[0m
+[1m[32m/bin/b2sum[0m                       [1m[32m/bin/x86_64-linux-gnu-as[0m
+[1m[32m/bin/base32[0m                      [1m[32m/bin/x86_64-linux-gnu-c++filt[0m
+[1m[32m/bin/base64[0m                      [1m[36m/bin/x86_64-linux-gnu-cpp[0m
+[1m[32m/bin/bunzip2[0m                     [1m[32m/bin/x86_64-linux-gnu-cpp-12[0m
+[1m[32m/bin/bzip2[0m                       [1m[32m/bin/x86_64-linux-gnu-dwp[0m
+[1m[32m/bin/bzip2recover[0m                [1m[32m/bin/x86_64-linux-gnu-elfedit[0m
+[1m[36m/bin/c89[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc[0m
+[1m[32m/bin/c89-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-12[0m
+[1m[36m/bin/c99[0m                         [1m[36m/bin/x86_64-linux-gnu-gcc-ar[0m
+[1m[32m/bin/c99-gcc[0m                     [1m[32m/bin/x86_64-linux-gnu-gcc-ar-12[0m
+[1m[32m/bin/cpan5.36-x86_64-linux-gnu[0m   [1m[36m/bin/x86_64-linux-gnu-gcc-nm[0m
+[1m[36m/bin/cpp-12[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-nm-12[0m
+[1m[32m/bin/diff3[0m                       [1m[36m/bin/x86_64-linux-gnu-gcc-ranlib[0m
+[1m[32m/bin/enc2xs[0m                      [1m[32m/bin/x86_64-linux-gnu-gcc-ranlib-12[0m
+[1m[36m/bin/gcc-12[0m                      [1m[36m/bin/x86_64-linux-gnu-gcov[0m
+[1m[36m/bin/gcc-ar-12[0m                   [1m[32m/bin/x86_64-linux-gnu-gcov-12[0m
+[1m[36m/bin/gcc-nm-12[0m                   [1m[36m/bin/x86_64-linux-gnu-gcov-dump[0m
+[1m[36m/bin/gcc-ranlib-12[0m               [1m[32m/bin/x86_64-linux-gnu-gcov-dump-12[0m
+[1m[36m/bin/gcov-12[0m                     [1m[36m/bin/x86_64-linux-gnu-gcov-tool[0m
+[1m[36m/bin/gcov-dump-12[0m                [1m[32m/bin/x86_64-linux-gnu-gcov-tool-12[0m
+[1m[36m/bin/gcov-tool-12[0m                [1m[36m/bin/x86_64-linux-gnu-gold[0m
+[1m[32m/bin/grub-menulst2cfg[0m            [1m[32m/bin/x86_64-linux-gnu-gp-archive[0m
+[1m[32m/bin/grub-mkpasswd-pbkdf2[0m        [1m[32m/bin/x86_64-linux-gnu-gp-collect-app[0m
+[1m[32m/bin/grub-syslinux2cfg[0m           [1m[32m/bin/x86_64-linux-gnu-gp-display-html[0m
+[1m[32m/bin/h2ph[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-src[0m
+[1m[32m/bin/h2xs[0m                        [1m[32m/bin/x86_64-linux-gnu-gp-display-text[0m
+[1m[36m/bin/i386[0m                        [1m[32m/bin/x86_64-linux-gnu-gprof[0m
+[1m[36m/bin/linux32[0m                     [1m[32m/bin/x86_64-linux-gnu-gprofng[0m
+[1m[36m/bin/linux64[0m                     [1m[36m/bin/x86_64-linux-gnu-ld[0m
+[1m[36m/bin/lto-dump-12[0m                 [1m[32m/bin/x86_64-linux-gnu-ld.bfd[0m
+[1m[32m/bin/md5sum[0m                      [1m[32m/bin/x86_64-linux-gnu-ld.gold[0m
+[1m[36m/bin/md5sum.textutils[0m            [1m[36m/bin/x86_64-linux-gnu-lto-dump[0m
+[1m[36m/bin/pdb3[0m                        [1m[32m/bin/x86_64-linux-gnu-lto-dump-12[0m
+[1m[36m/bin/pdb3.11[0m                     [1m[32m/bin/x86_64-linux-gnu-nm[0m
+[1m[32m/bin/perl5.36.0[0m                  [1m[32m/bin/x86_64-linux-gnu-objcopy[0m
+[1m[32m/bin/perl5.36-x86_64-linux-gnu[0m   [1m[32m/bin/x86_64-linux-gnu-objdump[0m
+[1m[36m/bin/ping4[0m                       [1m[32m/bin/x86_64-linux-gnu-ranlib[0m
+[1m[36m/bin/ping6[0m                       [1m[32m/bin/x86_64-linux-gnu-readelf[0m
+[1m[32m/bin/pl2pm[0m                       [1m[32m/bin/x86_64-linux-gnu-size[0m
+[1m[32m/bin/pod2html[0m                    [1m[32m/bin/x86_64-linux-gnu-strings[0m
+[1m[32m/bin/pod2man[0m                     [1m[32m/bin/x86_64-linux-gnu-strip[0m
+[1m[32m/bin/pod2text[0m                    [1m[32m/sbin/dumpe2fs[0m
+[1m[32m/bin/pod2usage[0m                   [1m[32m/sbin/e2freefrag[0m
+[1m[32m/bin/py3clean[0m                    [1m[32m/sbin/e2fsck[0m
+[1m[32m/bin/py3compile[0m                  [1m[32m/sbin/e2image[0m
+[1m[36m/bin/py3versions[0m                 [1m[36m/sbin/e2label[0m
+[1m[36m/bin/pydoc3[0m                      [1m[36m/sbin/e2mmpstatus[0m
+[1m[32m/bin/pydoc3.11[0m                   [1m[32m/sbin/e2scrub[0m
+[1m[36m/bin/pygettext3[0m                  [1m[32m/sbin/e2scrub_all[0m
+[1m[32m/bin/pygettext3.11[0m               [1m[32m/sbin/e2undo[0m
+[1m[36m/bin/python3[0m                     [1m[32m/sbin/e4crypt[0m
+[1m[32m/bin/python3.11[0m                  [1m[32m/sbin/e4defrag[0m
+[1m[32m/bin/sha1sum[0m                     [1m[36m/sbin/fsck.ext2[0m
+[1m[32m/bin/sha224sum[0m                   [1m[36m/sbin/fsck.ext3[0m
+[1m[32m/bin/sha256sum[0m                   [1m[36m/sbin/fsck.ext4[0m
+[1m[32m/bin/sha384sum[0m                   [1m[32m/sbin/killall5[0m
+[1m[32m/bin/sha512sum[0m                   [1m[32m/sbin/mke2fs[0m
+[1m[32m/bin/ssh-argv0[0m                   [1m[36m/sbin/mkfs.ext2[0m
+[1m[32m/bin/systemd-id128[0m               [1m[36m/sbin/mkfs.ext3[0m
+[1m[36m/bin/traceroute6[0m                 [1m[36m/sbin/mkfs.ext4[0m
+[1m[36m/bin/traceroute6.db[0m              [1m[32m/sbin/resize2fs[0m
+[1m[36m/bin/x86_64[0m                      [1m[32m/sbin/tune2fs[0m
+[1m[32m/bin/x86_64-linux-gnu-addr2line[0m  [1m[36m/sbin/update-grub2[0m
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls /bin/*[0-9]* /sbin/*[0-9]*[KPS1= [K[K[K[K[K[?5h[?5lecho $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export PS1= "[K'//[K[K\u@\h-$(date+%H:%M)> '
+[?2004lbash: export: `\u@\h-$(date+%H:%M)> ': not a valid identifier
+[?2004hexport PS1= '\u@\h-$(date+%H:%M)> 'e[K[?5h[?5l[?2004l[?2004h^C[?2004l[?2004h[?2004l
+[?2004hq[Ko
+[?2004lbash: o: command not found
+[?2004h[?5h[?5lq[K^[K:q
+[?2004lbash: :q: command not found
+[?2004hexit
+[?2004lexit
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ scree[Ken -ls
+[?2004lNo Sockets found in /run/screen/S-eltex-v32.
+
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ part2_log_check/[K.logcpart2_log_check.logapart2_log_check.logtpart2_log_check.log part2_log_check.log
+[?2004lScript started on 2026-07-09 17:23:51+07:00 [COMMAND="bash" TERM="xterm-256color" TTY="/dev/pts/22" COLUMNS="80" LINES="23"]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen ls
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2Jpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -sS[K[KS whoami_part2
+[?2004lbash: screnn: command not found
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screnn -S whoami_part2[1P[1@e
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [?5h[?5l
+.bash_history             part2_log_check.log       .ssh/
+.bash_logout              practice2_-v32_part1.log  .viminfo
+.bashrc                   .profile                  
+.config/                  report_part1.txt          
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls [K[?5h[?5l
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls[K[Kecho $HIST[?5h[?5l
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $HISTSIZE
+[?2004l1000
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ find [K~ [K[K ~ maxdepth=[K 1 -name ".*"
+[?2004l/home/eltex-v32/.viminfo
+/home/eltex-v32/.config
+/home/eltex-v32/.ssh
+/home/eltex-v32/.profile
+/home/eltex-v32/.bash_logout
+/home/eltex-v32/.bash_history
+/home/eltex-v32/.bashrc
+find: ‘maxdepth’: No such file or directory
+find: ‘1’: No such file or directory
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?5h[?5l[?5h[?5l[?5h[?5lls -la grep | [K[K[K[K[K[K[K~ | grep "^\."
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ export HISTTIMEFORMAT="%F %T "
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20
+[?2004lbash: hisrory: command not found
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ hisrory |head -20[P[1@t
+[?2004l    1  2026-07-09 17:24:32 w
+    2  2026-07-09 17:24:32 exit
+    3  2026-07-09 17:24:32 screen
+    4  2026-07-09 17:24:32 tree
+    5  2026-07-09 17:24:32 exit
+    6  2026-07-09 17:24:32 screen
+    7  2026-07-09 17:24:32 exit
+    8  2026-07-09 17:24:32 screen
+    9  2026-07-09 17:24:32 exit
+   10  2026-07-09 17:24:32 screen -ls
+   11  2026-07-09 17:24:32 exit
+   12  2026-07-09 17:24:32 -ls 
+   13  2026-07-09 17:24:32 screen -ls
+   14  2026-07-09 17:24:32 screen -r pts-38
+   15  2026-07-09 17:24:32 exit
+   16  2026-07-09 17:24:32 screen
+   17  2026-07-09 17:24:32 screen 
+   18  2026-07-09 17:24:32 w
+   19  2026-07-09 17:24:32 screen -S top -d -m top
+   20  2026-07-09 17:24:32 ls
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ history |head -20rory |he[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ cat part2_log_check.logls[Kscreen -lsS whoami_part2n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cen ls[Knn -S whoami_part2e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kls[Kcat part2_log_check.log[K
+[?2004l[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ cat part2_log_check.logls[Kscreen -lsS whoami_part2n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cen ls[Knn -S whoami_part2e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kls[Kcat part2_log_check.log[Kcat part2_log_check.log[Kcat part2_log_check.logls[Kscreen -lsS whoami_part2n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cen ls[Knn -S whoami_part2e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kls[Kcat part2_log_check.log[Kscreen -ls
+[?2004lNo Sockets found in /run/screen/S-eltex-v32.
+
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen -s whoami_part2
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[22B[7mCannot exec 'whoami_part2': No such file or directory[27m                                                         [H[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen -s[K[K[K[K[K[K[K[K[Kscreen -s whoami_part2ls[Ks whoami_part2ls[Kcat part2_log_check.logls[Kscreen -lsS whoami_part2
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ exho[K[K[Kcho $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ PS![K1= [K'\u@\h-$(date "+%H:%M)> " [K'
+[?2004lbash: command substitution: line 4: unexpected EOF while looking for matching `)'
+bash: command substitution: line 1: unexpected EOF while looking for matching `"'
+[?2004heltex-v32@eltex-2026-summer-
+[?2004lbash: command substitution: line 5: unexpected EOF while looking for matching `)'
+bash: command substitution: line 1: unexpected EOF while looking for matching `"'
+[?2004heltex-v32@eltex-2026-summer-[?5h[?5l[?5h[?5lPS1='\u@\h-$(date "+%H:%M)> "'eltex-v32@eltex-2026-summer-[KPS1='\u@\h-$(date "+%H:%M)> "'eltex-v32@eltex-2026-summer-[K[?5h[?5l[?5h[?5l
+[?2004lbash: command substitution: line 6: unexpected EOF while looking for matching `)'
+bash: command substitution: line 1: unexpected EOF while looking for matching `"'
+[?2004heltex-v32@eltex-2026-summer-q
+[?2004lbash: q: command not found
+bash: command substitution: line 7: unexpected EOF while looking for matching `)'
+bash: command substitution: line 1: unexpected EOF while looking for matching `"'
+[?2004heltex-v32@eltex-2026-summer-[?5h[?5l[?5h[?5l[?5h[?5lqPS1='\u@\h-$(date "+%H:%M)> "'eltex-v32@eltex-2026-summer-echo $PS1[K[5Pxit[2P:q[Poexport PS1= '\u@\h-$(date+%H:%M)> 'eltex-v32@eltex-2026-summer-echo $PS1[Kls /bin/*[0-9]* /sbin/*[0-9]*echo $PS1[Kxport PS1= '\u@\h-$(date+%H:%M)> 'eltex-v32@eltex-2026-summer-o[K:qexitcho $PS1PS1='\u@\h-$(date "+%H:%M)> "'eltex-v32@eltex-2026-summer-q[K[K[?5h[?5l[?5h[?5l[?5h[?5lexit
+[?2004lexit
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ screen -S whoami_part2
+[?2004l[!p[?3;4l[4l>[?1049h[22;0;0t[4l[?1h=[0m(B[1;23r[H[2J[H[2J[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ expoo[Krt PS1="[K'$(whoami)@$(hostname)-$(date +%H:%M)>  '
+[?2004l[?2004heltex-v32@eltex-2026-summer-18:32> echo $PS1
+[?2004l$(whoami)@$(hostname)-$(date +%H:%M)>
+[?2004heltex-v32@eltex-2026-summer-18:33> bash
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ bash
+[?2004l[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ echo $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ ls
+[?2004lpart2_log_check.log  practice2_-v32_part1.log  report_part1.txt
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ screen -ls
+[?2004lThere is a screen on:
+[8C1423735.whoami_part2[4C(07/09/2026 06:24:49 PM)[8C(Attached)
+1 Socket in /run/screen/S-eltex-v32.
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ s[Ksc[K[Kscreen -r 1423735.whoami_part2
+[?2004lThere is a screen on:
+[8C1423735.whoami_part2[4C(07/09/2026 06:24:49 PM)[8C(Attached)
+There is no screen to be resumed matching 1423735.whoami_part2.
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ screen -r 1423735.whoami_part2[K[?2004l
+exit
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ screen -ls
+[?2004lThere is a screen on:
+[8C1423735.whoami_part2[4C(07/09/2026 06:24:49 PM)[8C(Attached)
+1 Socket in /run/screen/S-eltex-v32.
+[?2004h[1m[32meltex-v32@eltex-2026-summer[0m:[1m[34m~[0m$ [?2004l
+exit
+[?2004heltex-v32@eltex-2026-summer-18:45> bashecho $PS1xport PS1='$(whoami)@$(hostname)-$(date +%H:%M)> '[Av32@eltex-2026-summer-18:45> echo $PS1[K
+[K[Aeltex-v32@eltex-2026-summer-18:45> echo $PS1
+[?2004l$(whoami)@$(hostname)-$(date +%H:%M)>
+[?2004heltex-v32@eltex-2026-summer-18:45> [?2004l
+exit
+[?1l>[23;1H
+[?1049l[23;0;0t[screen is terminating]
+[?2004h]0;eltex-v32@eltex-2026-summer: ~[01;32meltex-v32@eltex-2026-summer[00m:[01;34m~[00m$ [?2004l
+exit
+
+Script done on 2026-07-09 18:58:23+07:00 [COMMAND_EXIT_CODE="0"]
